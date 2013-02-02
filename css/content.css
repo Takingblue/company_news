@@ -1,0 +1,54 @@
+.companynews_tooltip {
+    background: #FCFCDA !important;
+    border: 1px solid #D8BA57 !important;
+    display: inline-block !important;
+    font-family: arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    line-height: normal !important;
+    margin: 0 !important;
+    max-height: 300px !important;
+    max-width: 400px !important;
+    overflow: auto !important;
+    padding: 5px !important;
+    position: absolute !important;
+    text-align: left !important;
+    z-index: 9000 !important;
+}
+
+.companynews_tooltip * {
+    background: transparent !important;
+    border: 0 !important;
+    color: #000000 !important;
+    font-size: 100% !important;
+    line-height: normal !important;
+    margin: 0 !important;
+    outline: 0 !important;
+    padding: 0 !important;
+    vertical-align: baseline !important;
+}
+
+.companynews_tooltip a {
+    color: #0000cc !important;
+}
+
+.companynews_tooltip .companynews_title {
+    font-size: 120% !important;
+    font-weight: bold !important;
+    margin-bottom: 2px !important;
+}
+
+.companynews_tooltip .companynews_close {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABmSURBVChTY/j///+Nh6/3n7m6dvcJTAQUB8oC1TAAKawqkAWBahhwmYSsDqiGAc4HGg4EuLjo6iBKIXqQtSHUwaV//fmDpggohaIOyIcoApJoniPdPGQ34XMfAf8SG37ExgeR8QsAopaUVS/4neAAAAAASUVORK5CYII=) !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer !important;
+    float: right !important;
+    width: 13px !important;
+    height: 13px !important;
+}
+
+.companynews_tooltip.topright {
+    position:fixed !important;
+    bottom:0 !important;
+    right:0 !important;
+}
